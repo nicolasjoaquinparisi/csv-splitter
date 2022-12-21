@@ -1,6 +1,6 @@
 import csv
 
-csv_name = "products-stocks.csv"
+csv_name = "example-csv.csv"
 
 file_name_base = 'split'
 
