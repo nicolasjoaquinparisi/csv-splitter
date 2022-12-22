@@ -1,6 +1,6 @@
 import csv
 
-csv_name = "example-csv.csv"
+csv_name = input('Enter the name of the file (example.csv): ')
 
 file_name_base = 'split'
 
