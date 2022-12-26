@@ -12,7 +12,7 @@ with open(csv_name) as csv_file:
     # Save the row header
     header = next(csv_reader)
     
-    # Initializing current lines writted
+    # Initializing new file lines writted
     lines = 0
 
     # The initial batch
@@ -36,4 +36,5 @@ with open(csv_name) as csv_file:
             file = open(file_name_base + '-' + str(batch) + '.csv', 'w', newline='')
             writer = csv.writer(file)
 
+            # Initializing new file lines writted
             lines = 0
